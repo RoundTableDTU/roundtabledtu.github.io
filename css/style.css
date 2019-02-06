@@ -268,13 +268,17 @@ sup {
 @-webkit-keyframes slid
 {
 	0%{top:0%;}
-	20%{top:0%;}
-	25%{top:-100%;}
-	45%{top:-100%;}
-	50%{top:-200%;}
-	75%{top:-200%;}
-	80%{top:-300%;}
-	95%{top:-300%;}
+	13%{top:0%;}
+	16%{top:-100%;}
+	29%{top:-100%;}
+	32%{top:-200%;}
+	45%{top:-200%;}
+	48%{top:-300%;}
+	61%{top:-300%;}
+	64%{top:-400%;}
+	77%{top:-400%;}
+	 80%{top:-500%;}
+	96%{top:-500%;}
 	100%{top:0%;}
 }
 
@@ -360,7 +364,7 @@ sup {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	color: #ffffff;
-	font-size: 150px;
+	font-size: 40px;
 	-webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
 }
@@ -369,7 +373,7 @@ sup {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	color: #ffffff;
-	font-size: 40px;
+	font-size: 20px;
 	-webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
 }
@@ -385,7 +389,7 @@ sup {
 	display: table;
 	text-align: left;
 	line-height: 22px;
-	font-size: 25px;
+	font-size: 15px;
 }
 .slide .right p
 {
@@ -394,14 +398,14 @@ sup {
 }
 .slide .right a
 {
-	font-size: 18px;
+	font-size: 12px;
 	letter-spacing: 3px;
 	text-decoration: none;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
-	padding: 10px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border-radius: 50px;
 	-webkit-transition: .5s ease; /* Safari */
     transition: .5s ease;
